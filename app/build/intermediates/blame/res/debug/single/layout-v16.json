@@ -1,10 +1,10 @@
 [
     {
-        "merged": "/Users/lee/Desktop/GoogleLogin/app/build/intermediates/res/merged/debug/layout-v16/notification_template_custom_big.xml",
-        "source": "/Users/lee/Desktop/GoogleLogin/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/layout-v16/notification_template_custom_big.xml"
+        "merged": "D:\\Users\\lee\\Desktop\\GoogleLogin\\app\\build\\intermediates\\res\\merged\\debug\\layout-v16\\notification_template_custom_big.xml",
+        "source": "D:\\Users\\lee\\Desktop\\GoogleLogin\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\layout-v16\\notification_template_custom_big.xml"
     },
     {
-        "merged": "/Users/lee/Desktop/git_repository/GDGtest/GoogleLogin/app/build/intermediates/res/merged/debug/layout-v16/notification_template_custom_big.xml",
-        "source": "/Users/lee/Desktop/git_repository/GDGtest/GoogleLogin/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/layout-v16/notification_template_custom_big.xml"
+        "merged": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\layout-v16\\notification_template_custom_big.xml",
+        "source": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\layout-v16\\notification_template_custom_big.xml"
     }
 ]

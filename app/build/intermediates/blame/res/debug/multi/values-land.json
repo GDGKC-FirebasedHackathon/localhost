@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/lee/Desktop/GoogleLogin/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
+        "outputFile": "D:\\Users\\lee\\Desktop\\GoogleLogin\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 120
                 },
                 "from": {
-                    "file": "/Users/lee/Desktop/GoogleLogin/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-land/values-land.xml",
+                    "file": "D:\\Users\\lee\\Desktop\\GoogleLogin\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-land\\values-land.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 184
                 },
                 "from": {
-                    "file": "/Users/lee/Desktop/GoogleLogin/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-land/values-land.xml",
+                    "file": "D:\\Users\\lee\\Desktop\\GoogleLogin\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-land\\values-land.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -49,7 +49,7 @@
                     "endOffset": 255
                 },
                 "from": {
-                    "file": "/Users/lee/Desktop/GoogleLogin/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-land/values-land.xml",
+                    "file": "D:\\Users\\lee\\Desktop\\GoogleLogin\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-land\\values-land.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -68,7 +68,7 @@
                     "endOffset": 323
                 },
                 "from": {
-                    "file": "/Users/lee/Desktop/GoogleLogin/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-land/values-land.xml",
+                    "file": "D:\\Users\\lee\\Desktop\\GoogleLogin\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-land\\values-land.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -81,7 +81,7 @@
         ]
     },
     {
-        "outputFile": "/Users/lee/Desktop/git_repository/GDGtest/GoogleLogin/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
+        "outputFile": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
         "map": [
             {
                 "to": {
@@ -92,7 +92,7 @@
                     "endOffset": 120
                 },
                 "from": {
-                    "file": "/Users/lee/Desktop/git_repository/GDGtest/GoogleLogin/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-land/values-land.xml",
+                    "file": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-land\\values-land.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -111,7 +111,7 @@
                     "endOffset": 184
                 },
                 "from": {
-                    "file": "/Users/lee/Desktop/git_repository/GDGtest/GoogleLogin/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-land/values-land.xml",
+                    "file": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-land\\values-land.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -130,7 +130,7 @@
                     "endOffset": 255
                 },
                 "from": {
-                    "file": "/Users/lee/Desktop/git_repository/GDGtest/GoogleLogin/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-land/values-land.xml",
+                    "file": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-land\\values-land.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -149,7 +149,7 @@
                     "endOffset": 323
                 },
                 "from": {
-                    "file": "/Users/lee/Desktop/git_repository/GDGtest/GoogleLogin/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-land/values-land.xml",
+                    "file": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-land\\values-land.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,

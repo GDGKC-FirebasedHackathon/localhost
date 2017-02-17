@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/lee/Desktop/GoogleLogin/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w820dp-v13/values-w820dp-v13.xml",
+        "outputFile": "D:\\Users\\lee\\Desktop\\GoogleLogin\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 108
                 },
                 "from": {
-                    "file": "/Users/lee/Desktop/GoogleLogin/app/src/main/res/values-w820dp/dimens.xml",
+                    "file": "D:\\Users\\lee\\Desktop\\GoogleLogin\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -24,7 +24,7 @@
         ]
     },
     {
-        "outputFile": "/Users/lee/Desktop/git_repository/GDGtest/GoogleLogin/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w820dp-v13/values-w820dp-v13.xml",
+        "outputFile": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -35,7 +35,7 @@
                     "endOffset": 108
                 },
                 "from": {
-                    "file": "/Users/lee/Desktop/git_repository/GDGtest/GoogleLogin/app/src/main/res/values-w820dp/dimens.xml",
+                    "file": "D:\\test\\TestApp\\localhost12312\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,

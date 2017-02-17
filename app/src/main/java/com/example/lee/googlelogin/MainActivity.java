@@ -21,11 +21,9 @@ package com.example.lee.googlelogin;
         import com.google.firebase.database.FirebaseDatabase;
 
 
-
-
 public class MainActivity extends AppCompatActivity implements GoogleApiClient.OnConnectionFailedListener, View.OnClickListener {
 
-// !!!!!!!!!!!!!#####################  auth 부분  !!!!!!!!!!!!!#####################
+
     SignInButton signInButton;
     Button signOutButton;
     TextView statusTextView;
@@ -37,15 +35,11 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
 
     DatabaseReference mRootRef = FirebaseDatabase.getInstance().getReference(); // 데이터 베이스 변경 될 때마다 처리
     DatabaseReference mConditionRef = mRootRef.child("condition");
-    // !!!!!!!!!!!!!#####################  auth 부분  !!!!!!!!!!!!!#####################
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        // !!!!!!!!!!!!!#####################  auth 부분  !!!!!!!!!!!!!#####################
 
         GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
                 .requestEmail()
@@ -63,27 +57,22 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
 
         signOutButton = (Button)findViewById(R.id.signOutButton);
         signOutButton.setOnClickListener(this);
-      // !!!!!!!!!!!!!#####################  auth 부분  !!!!!!!!!!!!!#####################
 
-
-
-
-    }  //oncreate 끝    // !!!!!!!!!!!!!#####################  auth 부분  !!!!!!!!!!!!!#####################
+    }
 
     @Override
     public void onClick(View v){
-        // !!!!!!!!!!!!!#####################  auth 부분  !!!!!!!!!!!!!#####################
+
         switch (v.getId()){
             case R.id.sign_in_button: signIn(); break;
             case R.id.signOutButton : signOut(); break;
 
         }
-        // !!!!!!!!!!!!!#####################  auth 부분  !!!!!!!!!!!!!#####################
     }
 
 
 
-    // !!!!!!!!!!!!!#####################  auth 부분  !!!!!!!!!!!!!#####################
+
     private void signIn() {
         Intent signInIntent = Auth.GoogleSignInApi.getSignInIntent(mGoogleApiClient);
         startActivityForResult(signInIntent, RC_SIGN_IN);
@@ -124,6 +113,6 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
         });
     }
 
-    // !!!!!!!!!!!!!#####################  auth 부분  !!!!!!!!!!!!!#####################
+
 
 }

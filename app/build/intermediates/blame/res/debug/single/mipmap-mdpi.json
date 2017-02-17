@@ -1,10 +1,10 @@
 [
     {
-        "merged": "/Users/lee/Desktop/GoogleLogin/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
-        "source": "/Users/lee/Desktop/GoogleLogin/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+        "merged": "D:\\Users\\lee\\Desktop\\GoogleLogin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
+        "source": "D:\\Users\\lee\\Desktop\\GoogleLogin\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "/Users/lee/Desktop/git_repository/GDGtest/GoogleLogin/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
-        "source": "/Users/lee/Desktop/git_repository/GDGtest/GoogleLogin/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+        "merged": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
+        "source": "D:\\test\\TestApp\\localhost12312\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     }
 ]
