@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/lee/Desktop/GoogleLogin/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/lee/Desktop/GoogleLogin/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.1.1_b68cc1c76d72e2bf091075ec689e0ea605ad7d75/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lee/Desktop/GoogleLogin/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage-common/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="09cf6aa1390f95157e8295d02be7868f568825fc">
+        <dex dex="/Users/lee/Desktop/GoogleLogin/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-common-10.0.1_6184e9df7be0fa3f9e1cf64539ac575ecc5b86a4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lee/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.1/support-annotations-25.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
+        <dex dex="/Users/lee/Desktop/GoogleLogin/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.1.1_f2dbf27825cca4c1820a633afb37a598fc23d93b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lee/Desktop/GoogleLogin/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
+        <dex dex="/Users/lee/Desktop/GoogleLogin/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.1.1_cdbf74e40eb6fe509cfa4955fa4fa9e9aab5d568/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lee/Desktop/GoogleLogin/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="/Users/lee/Desktop/GoogleLogin/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-10.0.1_01f49bdaaf3b116525e1db0c956067f26675c769/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lee/Desktop/GoogleLogin/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="/Users/lee/Desktop/GoogleLogin/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-10.0.1_4cddca1dcd1aece6e86c98d91fca9342c59c2441/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lee/Desktop/GoogleLogin/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
+        <dex dex="/Users/lee/Desktop/GoogleLogin/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.1.1_9818c5aaeb5eb57758493c18a61129cf0f5fcb9f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lee/Desktop/GoogleLogin/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="/Users/lee/Desktop/GoogleLogin/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-10.0.1_09abaa5a7ae73eb14d32abe160f4b79bef370ef9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lee/Desktop/GoogleLogin/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8f128aeeb7e31271b28a7adb9dac1f3a6ed9f5e7">
+        <dex dex="/Users/lee/Desktop/GoogleLogin/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-10.0.1_6eb024451c75272a389df4fd5c520404b98528d7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lee/Desktop/GoogleLogin/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="/Users/lee/Desktop/GoogleLogin/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-10.0.1_f5e5fefc363d1e09816cec44f9b9a3f9b61444d5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lee/Desktop/GoogleLogin/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
+        <dex dex="/Users/lee/Desktop/GoogleLogin/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.1.1_451b2ed8a658fffa8015037893208d0adb4e307e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lee/Desktop/GoogleLogin/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ca556a649a1d66f5463257d8f7f084a3f0507ef0">
+        <dex dex="/Users/lee/Desktop/GoogleLogin/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_ef33bf418c26a800216cc251267cf6de9dd8b9a7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lee/Desktop/GoogleLogin/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
+        <dex dex="/Users/lee/Desktop/GoogleLogin/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-connection-10.0.1_781d312e98fa2a01a317a07d9cc91f97901e6430/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lee/Desktop/GoogleLogin/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="/Users/lee/Desktop/GoogleLogin/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.1.1_1a6188c68c1da52693271a0e947f1ad99585ad59/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lee/Desktop/GoogleLogin/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="/Users/lee/Desktop/GoogleLogin/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.1.1_e9993798b94bf852f83c33a7947e792eaf02d256/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lee/Desktop/GoogleLogin/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dd39827d2067497e60e21da48a7926000b6d4b0c">
+        <dex dex="/Users/lee/Desktop/GoogleLogin/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-10.0.1_8cc9cd50add3572f542f1c92da46ef63fbe3a9db/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lee/Desktop/GoogleLogin/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a1be96617503a59b2692f0ea07d9f3d2609abfc2">
+        <dex dex="/Users/lee/Desktop/GoogleLogin/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_15a0a5e7e2dec4c8bf33efb508e4bc14ce190dfe/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lee/Desktop/GoogleLogin/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e2185aff89caeb337b1ffc36d5e525d8318e7cfe">
+        <dex dex="/Users/lee/Desktop/GoogleLogin/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-10.0.1_ef503bf8a468c137aa7f2d2f8dd4fae8cf0694fa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lee/Desktop/GoogleLogin/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="/Users/lee/Desktop/GoogleLogin/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-10.0.1_9f7af4b74a5b8a8067a4ff4b8c66de0c7b194d4f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lee/Desktop/GoogleLogin/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
+        <dex dex="/Users/lee/Desktop/GoogleLogin/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.1.1_0331b245180732c03758f03ff7b3bea760ff40f9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lee/Desktop/GoogleLogin/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e96c6974cf924e7ee3b230e6847d5731423388c9">
+        <dex dex="/Users/lee/Desktop/GoogleLogin/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-base-10.0.1_45cc000fe5f657c2379f0684d6ed18ac900314de/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lee/Desktop/GoogleLogin/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
+        <dex dex="/Users/lee/Desktop/GoogleLogin/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.1.1_a23e66a59a77d4d703b6ef65ff3b14d35d4d8061/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lee/Desktop/GoogleLogin/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
+        <dex dex="/Users/lee/Desktop/GoogleLogin/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.1.1_a260cbdebbfea952c052c430610ddbb19346f9af/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lee/Desktop/GoogleLogin/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="/Users/lee/Desktop/GoogleLogin/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-10.0.1_73a26749081128842d7fae4325302e50ac51f52d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lee/Desktop/GoogleLogin/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9cca2818594cc5348806d6662133491e7ea0fa8d">
+        <dex dex="/Users/lee/Desktop/GoogleLogin/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-10.0.1_dfff244cec0c3ee2258b9072b434b359a32ed411/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lee/Desktop/GoogleLogin/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="/Users/lee/Desktop/GoogleLogin/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-iid-10.0.1_5818a7a090315544e0b19f318ae05ef8753a4395/classes.dex" />
+    </item>
+
+</items>
