@@ -361,7 +361,232 @@
                             android:layout_height="match_parent"
                             android:id="@+id/tab2"
                             android:orientation="vertical">
+                            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                android:orientation="vertical"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_margin="5dp">
 
+                                <ScrollView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <LinearLayout
+                                        android:orientation="vertical"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_margin="10dp">
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="70dp"
+                                            android:text="모둠 만들기"
+                                            android:textColor="#182642"
+                                            android:textSize="40dp"
+                                            android:textStyle="bold"
+                                            android:gravity="center_vertical"/>
+
+                                        <EditText
+                                            android:id="@+id/roomEdit"
+                                            android:layout_marginTop="30dp"
+                                            android:paddingLeft="15dp"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="40dp"
+                                            android:background="@xml/make_room_round_edit"
+                                            android:hint="방 제목을 입력해주세요."/>
+
+                                        <TextView
+                                            android:layout_marginTop="10dp"
+                                            android:layout_marginLeft="10dp"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="40dp"
+                                            android:text="메뉴 카테고리"
+                                            android:textColor="#182642"
+                                            android:textSize="25dp"
+                                            android:textStyle="bold"
+                                            android:gravity="center_vertical"/>
+
+                                        <RadioGroup
+                                            android:id="@+id/categorySelect"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:orientation="vertical">
+
+
+                                                    <RadioButton
+                                                        android:id="@+id/radio1"
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="match_parent"
+                                                        android:layout_weight="1"
+                                                        android:text="치킨"
+                                                        android:textSize="23dp"
+                                                        android:textColor="#c0392b"/>
+
+                                                    <RadioButton
+                                                        android:id="@+id/radio2"
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="match_parent"
+                                                        android:layout_weight="1"
+                                                        android:text="중식"
+                                                        android:textColor="#f39c12"
+                                                        android:textSize="23dp" />
+
+                                                    <RadioButton
+                                                        android:id="@+id/radio3"
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="match_parent"
+                                                        android:layout_weight="1"
+                                                        android:text="분식/디저트"
+                                                        android:textColor="#f1c40f"
+                                                        android:textSize="23dp" />
+                                                    <RadioButton
+                                                        android:id="@+id/radio4"
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="match_parent"
+                                                        android:layout_weight="1"
+                                                        android:text="한식"
+                                                        android:textSize="23dp"
+                                                        android:textColor="#27ae60"/>
+
+                                                    <RadioButton
+                                                        android:id="@+id/radio5"
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="match_parent"
+                                                        android:layout_weight="1"
+                                                        android:text="피자/양식"
+                                                        android:textSize="23dp"
+                                                        android:textColor="#2980b9"/>
+                                                    <RadioButton
+                                                        android:id="@+id/radio6"
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="match_parent"
+                                                        android:layout_weight="1"
+                                                        android:text="일식/돈까스"
+                                                        android:textColor="#1638a0"
+                                                        android:textSize="23dp" />
+                                                    <RadioButton
+                                                        android:id="@+id/radio7"
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="match_parent"
+                                                        android:layout_weight="1"
+                                                        android:text="족발/보쌈"
+                                                        android:textColor="#710cac"
+                                                        android:textSize="23dp" />
+                                                    <RadioButton
+                                                        android:id="@+id/radio8"
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="match_parent"
+                                                        android:layout_weight="1"
+                                                        android:text="야식"
+                                                        android:textSize="23dp"
+                                                        android:textColor="#d71274"/>
+
+                                        </RadioGroup>
+
+                                        <TextView
+                                            android:layout_marginTop="10dp"
+                                            android:layout_marginLeft="10dp"
+                                            android:layout_marginRight="10dp"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="40dp"
+                                            android:text="날짜"
+                                            android:textColor="#182642"
+                                            android:textSize="25dp"
+                                            android:textStyle="bold"
+                                            android:gravity="center_vertical"/>
+                                        <DatePicker
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:id="@+id/datePicker"></DatePicker>
+                                        <EditText
+                                            android:id="@+id/timePicker"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"></EditText>
+
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:orientation="horizontal">
+
+                                            <TextView
+                                                android:layout_marginTop="10dp"
+                                                android:layout_marginLeft="10dp"
+                                                android:layout_marginRight="10dp"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="40dp"
+                                                android:text="장소"
+                                                android:textColor="#182642"
+                                                android:textSize="25dp"
+                                                android:textStyle="bold"
+                                                android:gravity="center_vertical"/>
+
+                                            <Spinner
+                                                android:id="@+id/locationSpinner"
+                                                android:layout_marginLeft="40dp"
+                                                android:layout_width="200dp"
+                                                android:layout_height="match_parent"
+                                                ></Spinner>
+
+                                        </LinearLayout>
+
+
+
+                                        <EditText
+                                            android:id="@+id/editLocationDetail"
+                                            android:layout_marginTop="10dp"
+                                            android:paddingLeft="15dp"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="40dp"
+                                            android:background="@xml/make_room_round_edit"
+                                            android:hint="상세 장소를 입력해주세요."
+                                            android:layout_marginLeft="30dp"/>
+
+                                        <TextView
+                                            android:layout_marginTop="30dp"
+                                            android:layout_marginLeft="10dp"
+                                            android:layout_marginRight="10dp"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="40dp"
+                                            android:text="메모"
+                                            android:textColor="#182642"
+                                            android:textSize="25dp"
+                                            android:textStyle="bold"
+                                            android:gravity="center_vertical"/>
+
+                                        <EditText
+                                            android:id="@+id/roomMemoEdit"
+                                            android:layout_marginTop="10dp"
+                                            android:paddingLeft="15dp"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="140dp"
+                                            android:background="@xml/make_room_round_edit"
+                                            android:hint="상세 장소를 입력해주세요."
+                                            android:layout_marginLeft="30dp"/>
+
+                                        <LinearLayout
+                                            android:gravity="center"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content">
+                                            <Button
+                                                android:id="@+id/roomCreateBtn"
+                                                android:textAlignment="center"
+                                                android:layout_marginTop="30dp"
+                                                android:layout_width="wrap_content"
+                                                android:padding="20dp"
+                                                android:layout_height="90dp"
+                                                android:background="#4672a0"
+                                                android:textColor="#FFFFFF"
+                                                android:textStyle="bold"
+                                                android:textSize="30dp"
+                                                android:text="모둠 만들기"/>
+                                        </LinearLayout>
+
+                                    </LinearLayout>
+
+
+                                </ScrollView>
+                            </LinearLayout>
                         </LinearLayout>
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -388,7 +613,7 @@
         android:layout_height="match_parent"
         android:layout_gravity="start"
         app:headerLayout="@layout/activity_navi_header"
-        app:menu="@menu/activity_main_drawer"
+
         ></android.support.design.widget.NavigationView>
 
 </android.support.v4.widget.DrawerLayout>

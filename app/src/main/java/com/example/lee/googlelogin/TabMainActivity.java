@@ -15,8 +15,15 @@ import android.support.design.widget.NavigationView;
 import android.support.v4.widget.DrawerLayout;
 import android.view.Gravity;
 import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.DatePicker;
+import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.RadioGroup;
 import android.widget.RatingBar;
+import android.widget.Spinner;
 import android.widget.TabHost;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -62,6 +69,9 @@ public class TabMainActivity extends TabActivity {
     private FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
     private DatabaseReference userDr = dr.child("user").child(user.getUid());
     private StorageReference sr = FirebaseStorage.getInstance().getReference().child("photos").child("user").child(user.getUid()).child("profile.png");
+    private String selectCategory;
+    private String spinnerSelect;
+    private Integer hour=0,minute=0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -125,27 +135,6 @@ public class TabMainActivity extends TabActivity {
             th.addTab(tabs[i]);
         }
 
-
-        /*
-        th.setOnTabChangedListener(new TabHost.OnTabChangeListener() {
-            @Override
-            public void onTabChanged(String s) {
-                int index = Integer.parseInt(s);
-
-                for(int i=0;i<tabsCount;i++){
-                    if(i ==index){
-                        drawArray[i] = getResources().getDrawable(whiteImage[i]);
-                    }else{
-                        drawArray[i] = getResources().getDrawable(blackImage[i]);
-                    }
-                    tabs[i] = th.newTabSpec(Integer.toString(i)).setContent(tabId[i]).setIndicator("",drawArray[i]);
-                    th.addTab(tabs[i]);
-                }
-                th.setCurrentTab(index);
-            }
-        });
-        */
-
         naviBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -197,8 +186,111 @@ public class TabMainActivity extends TabActivity {
         } catch (SecurityException e) {
             Toast.makeText(this, e.toString(), Toast.LENGTH_SHORT).show();
         }
+        final int[] locationIdList = {R.id.seoul,R.id.gyungi,R.id.incheon,R.id.daejeon,R.id.chungcheong,R.id.gangyeon
+        ,R.id.pusan,R.id.ulsan,R.id.kyengsang,R.id.jeonla,R.id.daeku,R.id.jeju};
+        String[] locationString = {"서울","경기","인천","대전","충청","강원","부산","울산","경상","전라","대구","제주"};
+        TextView[] textViewList = new TextView[locationIdList.length];
+        for(int i=0;i<locationIdList.length;i++){
+            textViewList[i] = (TextView)findViewById(locationIdList[i]);
+            final String myLocation = locationString[i];
+            textViewList[i].setOnClickListener(new View.OnClickListener() {
+                final String location = myLocation;
+                @Override
+                public void onClick(View v) {
+                    Intent intentString = new Intent(TabMainActivity.this,FoodCategorySelect.class);
+                    intentString.putExtra("location",location);
+                    startActivity(intentString);
+                }
+            });
+        }
+        final Button signOutBtn = (Button)naviView.findViewById(R.id.signOutBtn);
+        signOutBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                FirebaseAuth.getInstance().signOut();
+                startActivity(new Intent(TabMainActivity.this,MainActivity.class));
+                finish();
+            }
+        });
+        final EditText roomEdit = (EditText)findViewById(R.id.roomEdit);
+        final RadioGroup rg = (RadioGroup)findViewById(R.id.categorySelect);
+        final DatePicker dp = (DatePicker)findViewById(R.id.datePicker);
+        final EditText tp = (EditText) findViewById(R.id.timePicker);
+        final Button createBtn = (Button)findViewById(R.id.roomCreateBtn);
+        rg.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(RadioGroup group, int checkedId) {
+                switch (checkedId){
+                    case R.id.radio1:
+                        selectCategory = "치킨";
+                        break;
+                    case R.id.radio2:
+                        selectCategory = "중식";
+                        break;
+                    case R.id.radio3:
+                        selectCategory = "분식/디저트";
+                        break;
+                    case R.id.radio4:
+                        selectCategory = "한식";
+                        break;
+                    case R.id.radio5:
+                        selectCategory = "피자/양식";
+                        break;
+                    case R.id.radio6:
+                        selectCategory = "일식/돈까스";
+                        break;
+                    case R.id.radio7:
+                        selectCategory = "족발/보쌈";
+                        break;
+                    case R.id.radio8:
+                        selectCategory = "야식";
+                        break;
+                }
+            }
+        });
+        final Spinner spinner = (Spinner)findViewById(R.id.locationSpinner);
+        final ArrayAdapter<String> adapters = new ArrayAdapter<String>(this,android.R.layout.simple_spinner_item,locationString);
+        spinner.setAdapter(adapters);
+        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                spinnerSelect= adapters.getItem(position);
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
+                spinnerSelect= adapters.getItem(0);
+            }
+        });
+        final EditText locationEdit = (EditText)findViewById(R.id.editLocationDetail);
+        final EditText memoEdit = (EditText)findViewById(R.id.roomMemoEdit);
+
+
+        createBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String roomTitle = roomEdit.getText().toString();
+                String category = selectCategory;
+                String date = dp.getYear()+"년"+dp.getMonth()+"월"+dp.getDayOfMonth()+"일";
+                String time = tp.getText().toString();
+                String locationSelect = spinnerSelect;
+                String memo = memoEdit.getText().toString();
+                String detailLocation = locationEdit.getText().toString();
+                String key = dr.child("room").child(locationSelect).push().getKey();
+                DatabaseReference room = dr.child("room").child(locationSelect).child(key);
+                room.child("username").setValue(user.getUid());
+                room.child("photoUrl").setValue();
+                room.child("title").setValue(roomTitle);
+                room.child("date").setValue(date);
+                room.child("time").setValue(time);
+                room.child("location").setValue(locationSelect);
+                room.child("detailLocation").setValue(detailLocation);
+                room.child("key").setValue(key);
+            }
+        });
     }
 }
+
 /*
 
         StorageReference filePath = mStorage.child("photos").child(FirebaseAuth.getInstance().getCurrentUser().getUid());
