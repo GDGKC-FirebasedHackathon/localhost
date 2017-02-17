@@ -1,9 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
     <ImageView
+        android:src="@drawable/human_footprints"
+        android:id="@+id/naviImage"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:src="@drawable/bars"/>
+        android:layout_height="200dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/naviProfileTv"
+        android:textSize="20dp"
+        android:text="여기에 프로필이름"/>
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/ratingTv"
+        android:textSize="20dp"
+        android:text="0점"/>
+    <TextView
+        android:text="위치 정보를 불러오는 중 입니다.."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/myLocationTv"/>
+    <Switch
+        android:checked="true"
+        android:id="@+id/naviSwtich"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"/>
 </LinearLayout>

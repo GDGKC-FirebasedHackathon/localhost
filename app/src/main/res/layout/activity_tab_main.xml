@@ -387,9 +387,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_gravity="start"
-        app:headerLayout="@layout"
+        app:headerLayout="@layout/activity_navi_header"
         app:menu="@menu/activity_main_drawer"
-        >
-ionView>
+        ></android.support.design.widget.NavigationView>
 
 </android.support.v4.widget.DrawerLayout>
