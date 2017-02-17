@@ -8,6 +8,8 @@ package com.example.lee.googlelogin;
         import android.view.View;
         import android.widget.Button;
         import android.widget.TextView;
+        import android.widget.Toast;
+
         import com.google.android.gms.auth.api.Auth;
         import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
         import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
@@ -52,10 +54,10 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
 
 
         signInButton = (SignInButton)findViewById(R.id.sign_in_button);
-        statusTextView = (TextView)findViewById(R.id.status_textview);
+     //   statusTextView = (TextView)findViewById(R.id.status_textview);
         signInButton.setOnClickListener(this);
 
-        signOutButton = (Button)findViewById(R.id.signOutButton);
+  //      signOutButton = (Button)findViewById(R.id.signOutButton);
         signOutButton.setOnClickListener(this);
 
     }
@@ -65,7 +67,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
 
         switch (v.getId()){
             case R.id.sign_in_button: signIn(); break;
-            case R.id.signOutButton : signOut(); break;
+//            case R.id.signOutButton : signOut(); break;
 
         }
     }
@@ -101,10 +103,10 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
 
     @Override
     public void onConnectionFailed(ConnectionResult connectionResult){
-        Log.d(TAG, "onConnectionFailed:" + connectionResult);
+        Toast.makeText(MainActivity.this, "연결에 실패하였습니다.", Toast.LENGTH_SHORT).show();
     }
-
-    private void signOut(){
+    /*
+  private void signOut(){
         Auth.GoogleSignInApi.signOut(mGoogleApiClient).setResultCallback(new ResultCallback<Status>() {
             @Override
             public void onResult(@NonNull Status status) {
@@ -112,7 +114,5 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
             }
         });
     }
-
-
-
+    */
 }

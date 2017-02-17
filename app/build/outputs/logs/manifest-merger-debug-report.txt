@@ -35,7 +35,7 @@ MERGED from [com.android.support:animated-vector-drawable:25.1.1] D:\test\TestAp
 MERGED from [com.android.support:support-vector-drawable:25.1.1] D:\test\TestApp\localhost12312\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.1\AndroidManifest.xml:23:5-20
 MERGED from [com.android.support:support-compat:25.1.1] D:\test\TestApp\localhost12312\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.1\AndroidManifest.xml:25:5-20
 	android:label
-		ADDED from D:\test\TestApp\localhost12312\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from D:\test\TestApp\localhost12312\app\src\main\AndroidManifest.xml:8:9-28
 	android:supportsRtl
 		ADDED from D:\test\TestApp\localhost12312\app\src\main\AndroidManifest.xml:9:9-35
 	android:allowBackup
