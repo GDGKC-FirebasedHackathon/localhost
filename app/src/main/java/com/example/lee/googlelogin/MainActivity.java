@@ -68,23 +68,22 @@ public class MainActivity extends AppCompatActivity  implements View.OnClickList
                 final FirebaseUser fb = fa.getCurrentUser();
                 if(fb==null){
                 }else{
-                   final DatabaseReference dataRef = df.child("uid/"+fb.getUid());
+                   final DatabaseReference dataRef = df.child("user/"+fb.getUid());
                     dataRef.addListenerForSingleValueEvent(new ValueEventListener() {
                         @Override
                         public void onDataChange(DataSnapshot dataSnapshot) {
                             if(dataSnapshot.getValue()!=null){
+                                Intent intent = new Intent(MainActivity.this,TabMainActivity.class);
+                                startActivity(intent);
+                                finish();
                             }
                             else{
-                                dataRef.child("/username").setValue(fb.getDisplayName());
-                                dataRef.child("/email").setValue(fb.getEmail());
-                                dataRef.child("/photoUrl").setValue("");
-                                dataRef.child("/sex").setValue("");
-                                dataRef.child("/age").setValue("");
-                                dataRef.child("/allStars").setValue("0");
+                                Intent intent = new Intent(MainActivity.this,DetailSelectActivity.class);
+                                intent.putExtra("type","init");
+                                startActivity(intent);
+                                finish();
                             }
-                            Intent intent = new Intent(MainActivity.this,TabMainActivity.class);
-                            startActivity(intent);
-                            finish();
+
                         }
                         @Override
                         public void onCancelled(DatabaseError databaseError) {

@@ -2,6 +2,8 @@ package com.example.lee.googlelogin;
 
 import android.app.TabActivity;
 import android.content.Context;
+import android.content.Intent;
+import android.graphics.BitmapFactory;
 import android.graphics.drawable.Drawable;
 import android.location.Address;
 import android.location.Geocoder;
@@ -19,15 +21,21 @@ import android.widget.TabHost;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 
 import java.io.IOException;
+import java.text.DecimalFormat;
 import java.util.List;
+import java.util.Map;
 
 public class TabMainActivity extends TabActivity {
     private int[] blackImage = {R.drawable.multiple_users_silhouette,
@@ -52,6 +60,8 @@ public class TabMainActivity extends TabActivity {
     private FirebaseDatabase fd = FirebaseDatabase.getInstance();
     private DatabaseReference dr = fd.getReference();
     private FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+    private DatabaseReference userDr = dr.child("user").child(user.getUid());
+    private StorageReference sr = FirebaseStorage.getInstance().getReference().child("photos").child("user").child(user.getUid()).child("profile.png");
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -61,6 +71,7 @@ public class TabMainActivity extends TabActivity {
         View naviView = nv.getHeaderView(0);
         final TextView myLocationTv = (TextView) naviView.findViewById(R.id.myLocationTv);
         final RatingBar rb = (RatingBar) naviView.findViewById(R.id.ratingBar);
+        final TextView ratingTv = (TextView)naviView.findViewById(R.id.ratingTv);
         final ImageView profileIv = (ImageView)naviView. findViewById(R.id.naviImage);
         final TextView profileName = (TextView)naviView.findViewById(R.id.naviProfileTv);
         profileName.setText(user.getDisplayName());
@@ -69,7 +80,43 @@ public class TabMainActivity extends TabActivity {
         naviBtn = (ImageView) findViewById(R.id.naviBtn);
         final TabHost th = getTabHost();
         lm = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
+        profileIv.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent3 = new Intent(TabMainActivity.this,DetailSelectActivity.class);
+                intent3.putExtra("type","update");
+                startActivity(intent3);
+                finish();
+            }
+        });
+        userDr.addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                Map<String,Object> map = (Map<String,Object>)dataSnapshot.getValue();
+                String username = (String)map.get("username");
+                String stars =(String)map.get("allStars");
+                String allCounting =(String)map.get("rateCount");
+                float starRate = Float.parseFloat(stars);
+                profileName.setText(username);
+                DecimalFormat df = new DecimalFormat("0.##");
+                if(!allCounting.equals("0")){
+                    ratingTv.setText(df.format(starRate/Float.parseFloat(allCounting))+"점");
+                    rb.setRating(starRate/Float.parseFloat(allCounting));
+                }
 
+                sr.getBytes(Long.MAX_VALUE).addOnSuccessListener(new OnSuccessListener<byte[]>() {
+                    @Override
+                    public void onSuccess(byte[] bytes) {
+                        profileIv.setImageBitmap(BitmapFactory.decodeByteArray(bytes,0,bytes.length));
+                    }
+                });
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+        });
         geocoder = new Geocoder(getApplicationContext());
         for (int i = 0; i < tabsCount; i++) {
             drawArray[i] = getResources().getDrawable(blackImage[i]);
@@ -108,7 +155,7 @@ public class TabMainActivity extends TabActivity {
 
         mLocationListener = new LocationListener() {
             public void onLocationChanged(Location location) {
-                Toast.makeText(TabMainActivity.this, "dddddddddddddddd", Toast.LENGTH_SHORT).show();
+                //Toast.makeText(TabMainActivity.this, "dddddddddddddddd", Toast.LENGTH_SHORT).show();
                 double longitude = location.getLongitude(); //경도
                 double latitude = location.getLatitude();   //위도
                 double altitude = location.getAltitude();   //고도
