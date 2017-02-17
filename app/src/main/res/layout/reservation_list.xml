@@ -13,6 +13,7 @@
         android:gravity="center_vertical|right">
 
         <TextView
+            android:id="@+id/categoryTv"
             android:gravity="center"
             android:layout_width="100dp"
             android:layout_height="30dp"
@@ -38,6 +39,7 @@
                 android:textSize="18dp"/>
 
             <TextView
+                android:id="@+id/populationTv2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="30"
@@ -70,7 +72,7 @@
             android:textSize="30dp"
             android:gravity="center"
             android:textColor="#FFFFFF"
-            android:id="@+id/textView"
+            android:id="@+id/dateTv2"
             android:textStyle="bold"/>
 
         <LinearLayout
@@ -78,31 +80,12 @@
             android:layout_height="match_parent"
             android:layout_weight="3">
             <TextView
+                android:id="@+id/timeTv2"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="2"
-                android:text="14"
+                android:text="14:30"
                 android:gravity="center_vertical|right"
-                android:textSize="30dp"
-                android:textColor="#FFFFFF"
-                android:textStyle="bold"/>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="3"
-                android:text=" : "
-                android:textSize="30dp"
-                android:gravity="center"
-                android:textColor="#FFFFFF"
-                android:textStyle="bold"/>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="2"
-                android:text="30"
-                android:gravity="center_vertical|left"
                 android:textSize="30dp"
                 android:textColor="#FFFFFF"
                 android:textStyle="bold"/>
@@ -126,7 +109,7 @@
             android:gravity="center"
             android:layout_margin="5dp"
             android:textColor="#FFFFFF"
-            android:id="@+id/textView2" />
+            android:id="@+id/locationDetailTv2" />
 
         <ImageButton
             android:layout_width="match_parent"
@@ -154,9 +137,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:src="@drawable/multiple_users_silhouette"
+                android:src="@drawable/default_user"
                 android:gravity="center"
-                android:id="@+id/imageView" />
+                android:id="@+id/hostprofile" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -166,10 +149,11 @@
                 android:textColor="#FFFFFF"
                 android:textStyle="bold"
                 android:gravity="center"
-                android:id="@+id/textView3" />
+                android:id="@+id/roomhostTv" />
 
         </LinearLayout>
         <TextView
+            android:id="@+id/memoTv"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"

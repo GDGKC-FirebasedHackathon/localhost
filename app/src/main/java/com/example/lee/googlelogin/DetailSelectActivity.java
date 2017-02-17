@@ -49,9 +49,9 @@ public class DetailSelectActivity extends AppCompatActivity {
         womenBtn = (Button)findViewById(R.id.womenBtn);
         profileImg = (ImageView)findViewById(R.id.profileImageView);
         if(user==null){
-            Toast.makeText(this, "유저가 널값", Toast.LENGTH_SHORT).show();
+       //     Toast.makeText(this, "유저가 널값", Toast.LENGTH_SHORT).show();
         }else{
-            Toast.makeText(this, "널값아님", Toast.LENGTH_SHORT).show();
+          //  Toast.makeText(this, "널값아님", Toast.LENGTH_SHORT).show();
         }
         manBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -96,7 +96,7 @@ public class DetailSelectActivity extends AppCompatActivity {
         });
         StorageReference userSR =  sr.child("photos").child("user").child(user.getUid()).child("profile.png");
         if(userSR.getDownloadUrl()!=null){
-            Toast.makeText(DetailSelectActivity.this, "가져오기", Toast.LENGTH_SHORT).show();
+            //Toast.makeText(DetailSelectActivity.this, "가져오기", Toast.LENGTH_SHORT).show();
             userSR.getBytes(Long.MAX_VALUE).addOnSuccessListener(new OnSuccessListener<byte[]>() {
                 @Override
                 public void onSuccess(byte[] bytes) {

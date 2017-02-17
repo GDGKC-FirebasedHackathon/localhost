@@ -15,12 +15,15 @@ import android.support.design.widget.NavigationView;
 import android.support.v4.widget.DrawerLayout;
 import android.view.Gravity;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.BaseAdapter;
 import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.ListView;
 import android.widget.RadioGroup;
 import android.widget.RatingBar;
 import android.widget.Spinner;
@@ -41,6 +44,7 @@ import com.google.firebase.storage.StorageReference;
 
 import java.io.IOException;
 import java.text.DecimalFormat;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
@@ -71,6 +75,7 @@ public class TabMainActivity extends TabActivity {
     private StorageReference sr = FirebaseStorage.getInstance().getReference().child("photos").child("user").child(user.getUid()).child("profile.png");
     private String selectCategory;
     private String spinnerSelect;
+    private String username;
     private Integer hour=0,minute=0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -103,7 +108,7 @@ public class TabMainActivity extends TabActivity {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 Map<String,Object> map = (Map<String,Object>)dataSnapshot.getValue();
-                String username = (String)map.get("username");
+                username = (String)map.get("username");
                 String stars =(String)map.get("allStars");
                 String allCounting =(String)map.get("rateCount");
                 float starRate = Float.parseFloat(stars);
@@ -188,7 +193,7 @@ public class TabMainActivity extends TabActivity {
         }
         final int[] locationIdList = {R.id.seoul,R.id.gyungi,R.id.incheon,R.id.daejeon,R.id.chungcheong,R.id.gangyeon
         ,R.id.pusan,R.id.ulsan,R.id.kyengsang,R.id.jeonla,R.id.daeku,R.id.jeju};
-        String[] locationString = {"서울","경기","인천","대전","충청","강원","부산","울산","경상","전라","대구","제주"};
+        final String[] locationString = {"서울","경기","인천","대전","충청","강원","부산","울산","경상","전라","대구","제주"};
         TextView[] textViewList = new TextView[locationIdList.length];
         for(int i=0;i<locationIdList.length;i++){
             textViewList[i] = (TextView)findViewById(locationIdList[i]);
@@ -221,6 +226,7 @@ public class TabMainActivity extends TabActivity {
             @Override
             public void onCheckedChanged(RadioGroup group, int checkedId) {
                 switch (checkedId){
+
                     case R.id.radio1:
                         selectCategory = "치킨";
                         break;
@@ -276,34 +282,117 @@ public class TabMainActivity extends TabActivity {
                 String locationSelect = spinnerSelect;
                 String memo = memoEdit.getText().toString();
                 String detailLocation = locationEdit.getText().toString();
-                String key = dr.child("room").child(locationSelect).push().getKey();
-                DatabaseReference room = dr.child("room").child(locationSelect).child(key);
-                room.child("username").setValue(user.getUid());
-                room.child("photoUrl").setValue();
+                String key = dr.child("room").child(locationSelect).child(category).push().getKey();
+                DatabaseReference room = dr.child("room").child(locationSelect).child(category).child(key);
+                room.child("username").setValue(username);
+                room.child("uid").setValue(user.getUid());
                 room.child("title").setValue(roomTitle);
                 room.child("date").setValue(date);
                 room.child("time").setValue(time);
+                room.child("memo").setValue(memo);
                 room.child("location").setValue(locationSelect);
                 room.child("detailLocation").setValue(detailLocation);
                 room.child("key").setValue(key);
+                String memberKey = room.child("member").push().getKey();
+                room.child("member").child(memberKey).child("uid").setValue(user.getUid());
+                room.child("memberCount").setValue("1");
+                Intent intent4 = new Intent(TabMainActivity.this,RoomListActivity.class);
+                intent4.putExtra("location",locationIdList);
+                intent4.putExtra("category",selectCategory);
+                startActivity(intent4);
             }
         });
+
+        final ListView reservationList = (ListView)findViewById(R.id.reservationList);
+        final MyAdapter ma = new MyAdapter();
+        reservationList.setAdapter(ma);
+        dr.child("room").addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                array.clear();
+                Map<String,Object> locationMap = (Map<String,Object>)dataSnapshot.getValue();
+                if(locationMap!=null){
+                    for(String location: locationMap.keySet()){
+                        //위치 차일드
+                        Map<String,Object> category = (Map<String,Object>)locationMap.get(location);
+                        if(category!=null){
+                            for(String categoryString : category.keySet()){
+                                final String categoryKey = categoryString;
+                                Map<String,Object> roomMap = (Map<String,Object>)category.get(categoryString);
+                                if(roomMap!=null){
+                                    for(String roomKey : roomMap.keySet()){
+                                        Map<String,Object> roomObject = (Map<String,Object>)roomMap.get(roomKey);
+                                        Map<String,Object> memberMap = (Map<String,Object>)roomObject.get("member");
+                                        if(memberMap!=null){
+                                            for(String memberKey : memberMap.keySet()){
+                                                Map<String,Object> uid = (Map<String,Object>)memberMap.get(memberKey);
+                                                String getUid = (String)uid.get("uid");
+                                                if(getUid.equals(user.getUid())){
+                                                    //내가 있는방~
+                                                    View view = View.inflate(TabMainActivity.this,R.layout.reservation_list,null);
+                                                    TextView categoryTv = (TextView)view.findViewById(R.id.categoryTv);
+                                                    TextView populationTv = (TextView)view.findViewById(R.id.populationTv2);
+                                                    TextView dateTv2 = (TextView)view.findViewById(R.id.dateTv2);
+                                                    TextView timeTv2= (TextView)view.findViewById(R.id.timeTv2);
+                                                    TextView locationDetail = (TextView)view.findViewById(R.id.locationDetailTv2);
+                                                    final ImageView hostprofile = (ImageView)view.findViewById(R.id.hostprofile);
+                                                    TextView roomHostTv = (TextView)view.findViewById(R.id.roomhostTv);
+                                                    TextView memoTv = (TextView)view.findViewById(R.id.memoTv);
+                                                    categoryTv.setText(categoryKey);
+                                                    populationTv.setText((String)roomObject.get("memberCount"));
+                                                    dateTv2.setText((String)roomObject.get("date"));
+                                                    timeTv2.setText((String)roomObject.get("time"));
+                                                    locationDetail.setText((String)roomObject.get("detailLocation"));
+                                                    String hostUid = (String)roomObject.get("uid");
+                                                    roomHostTv.setText((String)roomObject.get("username"));
+                                                    memoTv.setText((String)roomObject.get("memo"));
+                                                    StorageReference sr = FirebaseStorage.getInstance().getReference().child("photos").child("user").child(hostUid).child("profile.png");
+                                                    sr.getBytes(Long.MAX_VALUE).addOnSuccessListener(new OnSuccessListener<byte[]>() {
+                                                        @Override
+                                                        public void onSuccess(byte[] bytes) {
+                                                            hostprofile.setImageBitmap(BitmapFactory.decodeByteArray(bytes,0,bytes.length));
+                                                        }
+                                                    });
+                                                    array.add(view);
+                                                    ma.notifyDataSetChanged();
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+        });
+
+    }
+    ArrayList<View> array = new ArrayList<>();
+    public class MyAdapter extends BaseAdapter{
+        @Override
+        public int getCount() {
+            return array.size();
+        }
+
+        @Override
+        public Object getItem(int position) {
+            return null;
+        }
+
+        @Override
+        public long getItemId(int position) {
+            return 0;
+        }
+
+        @Override
+        public View getView(int position, View convertView, ViewGroup parent) {
+            return array.get(position);
+        }
     }
 }
-
-/*
-
-        StorageReference filePath = mStorage.child("photos").child(FirebaseAuth.getInstance().getCurrentUser().getUid());
-        if (filePath == null) {
-            Toast.makeText(this, "너럴널", Toast.LENGTH_SHORT).show();
-        } else {
-            Toast.makeText(this, "잇긴잇음", Toast.LENGTH_SHORT).show();
-            filePath.getBytes(1024 * 1024).addOnSuccessListener(new OnSuccessListener<byte[]>() {
-                @Override
-                public void onSuccess(byte[] bytes) {
-                    Toast.makeText(TabMainActivity.this, "성공함", Toast.LENGTH_SHORT).show();
-                    profileIv.setImageBitmap(BitmapFactory.decodeByteArray(bytes, 0, bytes.length));
-                }
-            });
-        }
- */

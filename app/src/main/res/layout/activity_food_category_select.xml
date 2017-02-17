@@ -34,6 +34,7 @@
                     android:id="@+id/imageView" />
 
                 <TextView
+                    android:id="@+id/allTv"
                     android:layout_margin="5dp"
                     android:textSize="20dp"
                     android:textColor="#000000"
@@ -69,6 +70,7 @@
                     android:src="@drawable/ad2" />
 
                 <TextView
+                    android:id="@+id/roomTv1"
                     android:layout_margin="5dp"
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
@@ -97,6 +99,7 @@
                     android:src="@drawable/ad3" />
 
                 <TextView
+                    android:id="@+id/roomTv2"
                     android:layout_margin="5dp"
                     android:textSize="20dp"
                     android:textColor="#000000"
@@ -132,6 +135,7 @@
                     android:src="@drawable/ad4" />
 
                 <TextView
+                    android:id="@+id/roomTv3"
                     android:layout_margin="5dp"
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
@@ -140,8 +144,7 @@
                     android:textStyle="bold"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="중국집"
-                    android:id="@+id/textView" />
+                    android:text="분식/디저트"/>
             </LinearLayout>
 
             <LinearLayout
@@ -161,6 +164,7 @@
                     android:src="@drawable/ad5" />
 
                 <TextView
+                    android:id="@+id/roomTv4"
                     android:layout_width="match_parent"
                     android:textColor="#000000"
                     android:textStyle="bold"
@@ -196,6 +200,7 @@
                     android:src="@drawable/ad6" />
 
                 <TextView
+                    android:id="@+id/roomTv5"
                     android:layout_margin="5dp"
                     android:textSize="20dp"
                     android:textColor="#000000"
@@ -204,7 +209,7 @@
                     android:layout_height="40dp"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="한식" />
+                    android:text="피자/양식" />
             </LinearLayout>
 
             <LinearLayout
@@ -224,6 +229,7 @@
                     android:src="@drawable/ad7" />
 
                 <TextView
+                    android:id="@+id/roomTv6"
                     android:layout_margin="5dp"
                     android:textSize="20dp"
                     android:textColor="#000000"
@@ -232,7 +238,7 @@
                     android:layout_height="40dp"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="피자/양식" />
+                    android:text="일식/돈까스" />
             </LinearLayout>
 
         </LinearLayout>
@@ -265,6 +271,7 @@
                         android:src="@drawable/ad8" />
 
                     <TextView
+                        android:id="@+id/roomTv7"
                         android:layout_margin="5dp"
                         android:textSize="20dp"
                         android:textColor="#000000"
@@ -273,7 +280,7 @@
                         android:layout_height="40dp"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="일식/돈까스" />
+                        android:text="족발/보쌈" />
                 </LinearLayout>
 
             </LinearLayout>
@@ -298,6 +305,7 @@
                     android:src="@drawable/ad10" />
 
                 <TextView
+                    android:id="@+id/roomTv8"
                     android:layout_margin="5dp"
                     android:textSize="20dp"
                     android:textStyle="bold"
