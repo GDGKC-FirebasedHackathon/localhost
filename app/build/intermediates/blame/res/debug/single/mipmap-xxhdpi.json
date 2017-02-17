@@ -2,9 +2,5 @@
     {
         "merged": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
         "source": "D:\\test\\TestApp\\localhost12312\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "D:\\Users\\lee\\Desktop\\GoogleLogin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
-        "source": "D:\\Users\\lee\\Desktop\\GoogleLogin\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     }
 ]
