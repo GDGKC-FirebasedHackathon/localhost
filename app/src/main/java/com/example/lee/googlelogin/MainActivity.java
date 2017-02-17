@@ -68,9 +68,10 @@ public class MainActivity extends AppCompatActivity  implements View.OnClickList
             public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
                 FirebaseUser fb = fa.getCurrentUser();
                 if(fb==null){
-                    Toast.makeText(MainActivity.this,"안됨",Toast.LENGTH_SHORT).show();
                 }else{
-                    Toast.makeText(MainActivity.this,"성공",Toast.LENGTH_SHORT).show();
+                    Intent intent = new Intent(MainActivity.this,TabMainActivity.class);
+                    startActivity(intent);
+                    finish();
                 }
             }
         });
@@ -90,7 +91,6 @@ public class MainActivity extends AppCompatActivity  implements View.OnClickList
                             Toast.makeText(MainActivity.this,"안됨",Toast.LENGTH_SHORT).show();
                         }
                         else{
-                            Toast.makeText(MainActivity.this,"성공",Toast.LENGTH_SHORT).show();
                         }
                         // ...
                     }
