@@ -23,11 +23,13 @@
                 android:orientation="horizontal"
                 android:background="#2d4762">
                 <ImageView
+                    android:layout_gravity="top"
                     android:id="@+id/naviBtn"
                     android:src="@drawable/bars"
                     android:layout_weight="1"
                     android:layout_width="100dp"
-                    android:layout_height="50dp" />
+                    android:layout_height="30dp"
+                    android:padding="5dp"/>
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -37,7 +39,7 @@
                         android:textColor="#FFFFFF"
                         android:gravity="center"
                         android:text="모둠밥"
-                        android:textSize="30dp"
+                        android:textSize="25dp"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content" />
 
@@ -45,16 +47,15 @@
                         android:textColor="#FFFFFF"
                         android:gravity="center"
                         android:text="여러 사람이 모두 먹기 위하여 함꼐 담은 밥"
-                        android:textSize="20dp"
+                        android:textSize="15dp"
                         android:layout_weight="1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content" />
                 </LinearLayout>
                 <ImageView
-                    android:src="@drawable/search"
                     android:layout_weight="1"
                     android:layout_width="100dp"
-                    android:layout_height="50dp" />
+                    android:layout_height="30dp" />
             </LinearLayout>
             <TabHost
                 android:id="@android:id/tabhost"
@@ -123,6 +124,11 @@
                                             android:layout_height="match_parent"
                                             android:orientation="horizontal">
                                             <TextView
+                                                android:textStyle="bold"
+                                                android:layout_marginTop="20dp"
+                                                android:layout_marginLeft="10dp"
+                                                android:layout_marginRight="5dp"
+                                                android:layout_marginBottom="10dp"
                                                 android:textColor="#FFFFFF"
                                                 android:background="#4672a0"
                                                 android:textSize="30sp"
@@ -133,6 +139,11 @@
                                                 android:text="서울"
                                                 android:id="@+id/seoul"/>
                                             <TextView
+                                                android:textStyle="bold"
+                                                android:layout_marginTop="20dp"
+                                                android:layout_marginLeft="5dp"
+                                                android:layout_marginRight="10dp"
+                                                android:layout_marginBottom="10dp"
                                                 android:textColor="#FFFFFF"
                                                 android:background="#6092c5"
                                                 android:textSize="30sp"
@@ -154,7 +165,13 @@
                                             android:layout_width="match_parent"
                                             android:layout_height="match_parent"
                                             android:orientation="horizontal">
+
                                             <TextView
+                                                android:textStyle="bold"
+                                                android:layout_marginTop="10dp"
+                                                android:layout_marginLeft="10dp"
+                                                android:layout_marginRight="5dp"
+                                                android:layout_marginBottom="10dp"
                                                 android:textColor="#FFFFFF"
                                                 android:background="#6092c5"
                                                 android:textSize="30sp"
@@ -164,7 +181,13 @@
                                                 android:layout_height="100dp"
                                                 android:text="인천"
                                                 android:id="@+id/incheon"/>
+
                                             <TextView
+                                                android:textStyle="bold"
+                                                android:layout_marginTop="10dp"
+                                                android:layout_marginLeft="5dp"
+                                                android:layout_marginRight="10dp"
+                                                android:layout_marginBottom="10dp"
                                                 android:textColor="#FFFFFF"
                                                 android:background="#4672a0"
                                                 android:textSize="30sp"
@@ -181,6 +204,11 @@
                                         android:layout_height="match_parent"
                                         android:layout_weight="1">
                                         <TextView
+                                            android:textStyle="bold"
+                                            android:layout_marginTop="10dp"
+                                            android:layout_marginLeft="10dp"
+                                            android:layout_marginRight="5dp"
+                                            android:layout_marginBottom="10dp"
                                             android:textColor="#FFFFFF"
                                             android:background="#4672a0"
                                             android:textSize="30sp"
@@ -191,6 +219,11 @@
                                             android:text="충청"
                                             android:id="@+id/chungcheong"/>
                                         <TextView
+                                            android:textStyle="bold"
+                                            android:layout_marginTop="10dp"
+                                            android:layout_marginLeft="5dp"
+                                            android:layout_marginRight="10dp"
+                                            android:layout_marginBottom="10dp"
                                             android:textColor="#FFFFFF"
                                             android:background="#6092c5"
                                             android:textSize="30sp"
@@ -211,6 +244,11 @@
                                             android:orientation="horizontal">
 
                                             <TextView
+                                                android:textStyle="bold"
+                                                android:layout_marginTop="10dp"
+                                                android:layout_marginLeft="10dp"
+                                                android:layout_marginRight="5dp"
+                                                android:layout_marginBottom="10dp"
                                                 android:textColor="#FFFFFF"
                                                 android:background="#6092c5"
                                                 android:textSize="30sp"
@@ -221,6 +259,11 @@
                                                 android:text="부산"
                                                 android:id="@+id/pusan"/>
                                             <TextView
+                                                android:textStyle="bold"
+                                                android:layout_marginTop="10dp"
+                                                android:layout_marginLeft="5dp"
+                                                android:layout_marginRight="10dp"
+                                                android:layout_marginBottom="10dp"
                                                 android:textColor="#FFFFFF"
                                                 android:background="#4672a0"
                                                 android:textSize="30sp"
@@ -242,6 +285,11 @@
                                             android:layout_height="match_parent"
                                             android:orientation="horizontal">
                                             <TextView
+                                                android:textStyle="bold"
+                                                android:layout_marginTop="10dp"
+                                                android:layout_marginLeft="10dp"
+                                                android:layout_marginRight="5dp"
+                                                android:layout_marginBottom="10dp"
                                                 android:textColor="#FFFFFF"
                                                 android:background="#4672a0"
                                                 android:textSize="30sp"
@@ -252,6 +300,11 @@
                                                 android:text="경상"
                                                 android:id="@+id/kyengsang"/>
                                             <TextView
+                                                android:textStyle="bold"
+                                                android:layout_marginTop="10dp"
+                                                android:layout_marginLeft="5dp"
+                                                android:layout_marginRight="10dp"
+                                                android:layout_marginBottom="10dp"
                                                 android:textColor="#FFFFFF"
                                                 android:background="#6092c5"
                                                 android:textSize="30sp"
@@ -268,6 +321,11 @@
                                         android:layout_height="match_parent"
                                         android:layout_weight="1">
                                         <TextView
+                                            android:textStyle="bold"
+                                            android:layout_marginTop="10dp"
+                                            android:layout_marginLeft="10dp"
+                                            android:layout_marginRight="5dp"
+                                            android:layout_marginBottom="20dp"
                                             android:textColor="#FFFFFF"
                                             android:background="#6092c5"
                                             android:textSize="30sp"
@@ -278,6 +336,11 @@
                                             android:text="대구"
                                             android:id="@+id/daeku"/>
                                         <TextView
+                                            android:textStyle="bold"
+                                            android:layout_marginTop="10dp"
+                                            android:layout_marginLeft="5dp"
+                                            android:layout_marginRight="10dp"
+                                            android:layout_marginBottom="20dp"
                                             android:textColor="#FFFFFF"
                                             android:background="#4672a0"
                                             android:textSize="30sp"

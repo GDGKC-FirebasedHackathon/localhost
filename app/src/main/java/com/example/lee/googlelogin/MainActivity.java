@@ -19,24 +19,24 @@ package com.example.lee.googlelogin;
         import com.google.android.gms.common.api.GoogleApiClient;
         import com.google.android.gms.common.api.ResultCallback;
         import com.google.android.gms.common.api.Status;
+        import com.google.firebase.auth.FirebaseAuth;
+        import com.google.firebase.auth.FirebaseUser;
         import com.google.firebase.database.DatabaseReference;
         import com.google.firebase.database.FirebaseDatabase;
 
 
 public class MainActivity extends AppCompatActivity implements GoogleApiClient.OnConnectionFailedListener, View.OnClickListener {
-
-
-    SignInButton signInButton;
-    Button signOutButton;
-    TextView statusTextView;
-    GoogleApiClient mGoogleApiClient;
-
-
-    private static final String TAG = "SignInActivity";
+    private FirebaseAuth fa = FirebaseAuth.getInstance();
+    private FirebaseDatabase fb = FirebaseDatabase.getInstance();
+    private DatabaseReference df = fb.getReference();
+    private SignInButton signInButton;
+    private Button signOutButton;
+    private TextView statusTextView;
+    private GoogleApiClient mGoogleApiClient;
     private static final int RC_SIGN_IN = 9001;
 
-    DatabaseReference mRootRef = FirebaseDatabase.getInstance().getReference(); // 데이터 베이스 변경 될 때마다 처리
-    DatabaseReference mConditionRef = mRootRef.child("condition");
+    private DatabaseReference mRootRef = FirebaseDatabase.getInstance().getReference(); // 데이터 베이스 변경 될 때마다 처리
+    private DatabaseReference mConditionRef = mRootRef.child("condition");
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -56,10 +56,17 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
         signInButton = (SignInButton)findViewById(R.id.sign_in_button);
      //   statusTextView = (TextView)findViewById(R.id.status_textview);
         signInButton.setOnClickListener(this);
-
-  //      signOutButton = (Button)findViewById(R.id.signOutButton);
-        signOutButton.setOnClickListener(this);
-
+        fa.addAuthStateListener(new FirebaseAuth.AuthStateListener() {
+            @Override
+            public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
+                FirebaseUser fb = fa.getCurrentUser();
+                if(fb==null){
+                    Toast.makeText(MainActivity.this,"안됨",Toast.LENGTH_SHORT).show();
+                }else{
+                    Toast.makeText(MainActivity.this,"성공",Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
     }
 
     @Override
@@ -92,12 +99,14 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
     }
 
     private void handleSignInResult(GoogleSignInResult result){
-        Log.d(TAG, "handleSignInResult:" +result.isSuccess());
         if(result.isSuccess()){
             GoogleSignInAccount acct = result.getSignInAccount();
-             statusTextView.setText("Login Success!!" + acct.getDisplayName());
+            Toast.makeText(MainActivity.this, "로그인 성공!", Toast.LENGTH_SHORT).show();
+            Toast.makeText(MainActivity.this, acct.getEmail(), Toast.LENGTH_SHORT).show();
+
         }else{
 
+            Toast.makeText(MainActivity.this, "로그인에 실패하였습니다.", Toast.LENGTH_SHORT).show();
         }
     }
 

@@ -2,5 +2,9 @@
     {
         "merged": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\xml\\rounded_btn.xml",
         "source": "D:\\test\\TestApp\\localhost12312\\app\\src\\main\\res\\xml\\rounded_btn.xml"
+    },
+    {
+        "merged": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\xml\\round_edit.xml",
+        "source": "D:\\test\\TestApp\\localhost12312\\app\\src\\main\\res\\xml\\round_edit.xml"
     }
 ]
