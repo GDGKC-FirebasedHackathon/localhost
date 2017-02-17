@@ -1,6 +1,10 @@
 [
     {
-        "merged": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\layout-v16\\notification_template_custom_big.xml",
-        "source": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\layout-v16\\notification_template_custom_big.xml"
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/res/merged/debug/layout-v16/notification_template_custom_big.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/layout-v16/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\layout-v16\\notification_template_custom_big.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\layout-v16\\notification_template_custom_big.xml"
     }
 ]

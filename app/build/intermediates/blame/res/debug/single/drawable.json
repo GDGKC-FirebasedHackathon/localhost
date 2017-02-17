@@ -1,238 +1,530 @@
 [
     {
-        "merged": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
-        "source": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_tab_indicator_material.xml"
     },
     {
-        "merged": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
-        "source": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_indicator_material.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_ratingbar_indicator_material.xml"
     },
     {
-        "merged": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light_focused.xml",
-        "source": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.0.1\\res\\drawable\\common_google_signin_btn_icon_light_focused.xml"
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\abc_ratingbar_indicator_material.xml"
     },
     {
-        "merged": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
-        "source": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\abc_switch_thumb_material.xml"
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\abc_spinner_textfield_background_material.xml"
     },
     {
-        "merged": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\white_multiple_user.png",
-        "source": "D:\\test\\TestApp\\localhost12312\\app\\src\\main\\res\\drawable\\white_multiple_user.png"
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_small_material.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_ratingbar_small_material.xml"
     },
     {
-        "merged": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\calendar_with_a_clock_time_tools.png",
-        "source": "D:\\test\\TestApp\\localhost12312\\app\\src\\main\\res\\drawable\\calendar_with_a_clock_time_tools.png"
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light_focused.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.0.1\\res\\drawable\\common_google_signin_btn_icon_light_focused.xml"
     },
     {
-        "merged": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark.xml",
-        "source": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.0.1\\res\\drawable\\common_google_signin_btn_text_dark.xml"
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\white_multiple_user.png",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\src\\main\\res\\drawable\\white_multiple_user.png"
     },
     {
-        "merged": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
-        "source": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\abc_switch_thumb_material.xml"
     },
     {
-        "merged": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
-        "source": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark_focused.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
     },
     {
-        "merged": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
-        "source": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/res/merged/debug/drawable/ad3.png",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/app/src/main/res/drawable/ad3.png"
     },
     {
-        "merged": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light_focused.xml",
-        "source": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.0.1\\res\\drawable\\common_google_signin_btn_text_light_focused.xml"
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\abc_ic_voice_search_api_material.xml"
     },
     {
-        "merged": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
-        "source": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light_focused.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/drawable/common_google_signin_btn_text_light_focused.xml"
     },
     {
-        "merged": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark_focused.xml",
-        "source": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.0.1\\res\\drawable\\common_google_signin_btn_text_dark_focused.xml"
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/res/merged/debug/drawable/abc_ic_ab_back_material.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_ic_ab_back_material.xml"
     },
     {
-        "merged": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
-        "source": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\abc_item_background_holo_light.xml"
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/res/merged/debug/drawable/dish.jpeg",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/app/src/main/res/drawable/dish.jpeg"
     },
     {
-        "merged": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
-        "source": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\notification_bg.xml"
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
     },
     {
-        "merged": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
-        "source": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\abc_text_cursor_material.xml"
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/res/merged/debug/drawable/abc_ic_voice_search_api_material.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_ic_voice_search_api_material.xml"
     },
     {
-        "merged": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
-        "source": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_seekbar_track_material.xml"
     },
     {
-        "merged": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rounded_add_button.png",
-        "source": "D:\\test\\TestApp\\localhost12312\\app\\src\\main\\res\\drawable\\rounded_add_button.png"
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\notification_bg.xml"
     },
     {
-        "merged": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
-        "source": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\abc_seekbar_track_material.xml"
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/res/merged/debug/drawable/abc_vector_test.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_vector_test.xml"
     },
     {
-        "merged": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light.xml",
-        "source": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.0.1\\res\\drawable\\common_google_signin_btn_text_light.xml"
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/res/merged/debug/drawable/ad2.png",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/app/src/main/res/drawable/ad2.png"
     },
     {
-        "merged": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\white_star.png",
-        "source": "D:\\test\\TestApp\\localhost12312\\app\\src\\main\\res\\drawable\\white_star.png"
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\abc_text_cursor_material.xml"
     },
     {
-        "merged": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
-        "source": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\abc_btn_colored_material.xml"
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/res/merged/debug/drawable/abc_ic_clear_material.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_ic_clear_material.xml"
     },
     {
-        "merged": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
-        "source": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\abc_seekbar_track_material.xml"
     },
     {
-        "merged": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark_focused.xml",
-        "source": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.0.1\\res\\drawable\\common_google_signin_btn_icon_dark_focused.xml"
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.0.1\\res\\drawable\\common_google_signin_btn_text_light.xml"
     },
     {
-        "merged": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
-        "source": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\abc_textfield_search_material.xml"
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
     },
     {
-        "merged": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
-        "source": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\abc_list_selector_holo_dark.xml"
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/res/merged/debug/drawable/notification_bg.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/notification_bg.xml"
     },
     {
-        "merged": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark.xml",
-        "source": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.0.1\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/res/merged/debug/drawable/mapicon.png",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/app/src/main/res/drawable/mapicon.png"
     },
     {
-        "merged": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
-        "source": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\abc_tab_indicator_material.xml"
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/drawable/common_google_signin_btn_icon_light.xml"
     },
     {
-        "merged": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bars.png",
-        "source": "D:\\test\\TestApp\\localhost12312\\app\\src\\main\\res\\drawable\\bars.png"
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_thumb_material.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_seekbar_thumb_material.xml"
     },
     {
-        "merged": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
-        "source": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\abc_edit_text_material.xml"
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/res/merged/debug/drawable/abc_ic_search_api_material.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_ic_search_api_material.xml"
     },
     {
-        "merged": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
-        "source": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\abc_ic_go_search_api_material.xml"
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.0.1\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
     },
     {
-        "merged": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\gpsmoduleicon.png",
-        "source": "D:\\test\\TestApp\\localhost12312\\app\\src\\main\\res\\drawable\\gpsmoduleicon.png"
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\abc_tab_indicator_material.xml"
     },
     {
-        "merged": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
-        "source": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\abc_ratingbar_material.xml"
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\abc_edit_text_material.xml"
     },
     {
-        "merged": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
-        "source": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\abc_btn_check_material.xml"
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/res/merged/debug/drawable/notification_icon_background.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/notification_icon_background.xml"
     },
     {
-        "merged": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
-        "source": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\abc_cab_background_internal_bg.xml"
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\abc_btn_check_material.xml"
     },
     {
-        "merged": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\search.png",
-        "source": "D:\\test\\TestApp\\localhost12312\\app\\src\\main\\res\\drawable\\search.png"
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\abc_cab_background_internal_bg.xml"
     },
     {
-        "merged": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
-        "source": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\abc_list_selector_holo_light.xml"
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\abc_list_selector_holo_light.xml"
     },
     {
-        "merged": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
-        "source": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
     },
     {
-        "merged": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
-        "source": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\abc_dialog_material_background.xml"
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/res/merged/debug/drawable/white_multiple_user.png",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/app/src/main/res/drawable/white_multiple_user.png"
     },
     {
-        "merged": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
-        "source": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\abc_ic_search_api_material.xml"
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\abc_dialog_material_background.xml"
     },
     {
-        "merged": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
-        "source": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\notification_icon_background.xml"
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\notification_icon_background.xml"
     },
     {
-        "merged": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\black_star.png",
-        "source": "D:\\test\\TestApp\\localhost12312\\app\\src\\main\\res\\drawable\\black_star.png"
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_item_background_holo_dark.xml"
     },
     {
-        "merged": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
-        "source": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\abc_cab_background_top_material.xml"
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_cab_background_top_material.xml"
     },
     {
-        "merged": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
-        "source": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\notification_bg_low.xml"
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\black_star.png",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\src\\main\\res\\drawable\\black_star.png"
     },
     {
-        "merged": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
-        "source": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\abc_ratingbar_small_material.xml"
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\abc_cab_background_top_material.xml"
     },
     {
-        "merged": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\multiple_users_silhouette.png",
-        "source": "D:\\test\\TestApp\\localhost12312\\app\\src\\main\\res\\drawable\\multiple_users_silhouette.png"
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/res/merged/debug/drawable/white_clock.png",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/app/src/main/res/drawable/white_clock.png"
     },
     {
-        "merged": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
-        "source": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\abc_btn_borderless_material.xml"
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mapicon.png",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\src\\main\\res\\drawable\\mapicon.png"
     },
     {
-        "merged": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
-        "source": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\abc_btn_radio_material.xml"
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.0.1\\res\\drawable\\common_google_signin_btn_icon_light.xml"
     },
     {
-        "merged": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mapicon.png",
-        "source": "D:\\test\\TestApp\\localhost12312\\app\\src\\main\\res\\drawable\\mapicon.png"
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_edit_text_material.xml"
     },
     {
-        "merged": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
-        "source": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.0.1\\res\\drawable\\common_google_signin_btn_icon_light.xml"
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/res/merged/debug/drawable/white_star.png",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/app/src/main/res/drawable/white_star.png"
     },
     {
-        "merged": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\white_rounded_btn.png",
-        "source": "D:\\test\\TestApp\\localhost12312\\app\\src\\main\\res\\drawable\\white_rounded_btn.png"
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark_focused.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/drawable/common_google_signin_btn_text_dark_focused.xml"
     },
     {
-        "merged": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
-        "source": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\abc_vector_test.xml"
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\abc_vector_test.xml"
     },
     {
-        "merged": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
-        "source": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\notification_tile_bg.xml"
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/res/merged/debug/drawable/abc_btn_colored_material.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_btn_colored_material.xml"
     },
     {
-        "merged": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
-        "source": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\abc_ic_clear_material.xml"
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/res/merged/debug/drawable/ad4.png",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/app/src/main/res/drawable/ad4.png"
     },
     {
-        "merged": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\white_clock.png",
-        "source": "D:\\test\\TestApp\\localhost12312\\app\\src\\main\\res\\drawable\\white_clock.png"
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_switch_thumb_material.xml"
     },
     {
-        "merged": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
-        "source": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\abc_item_background_holo_dark.xml"
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/res/merged/debug/drawable/rounded_add_button.png",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/app/src/main/res/drawable/rounded_add_button.png"
     },
     {
-        "merged": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
-        "source": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\abc_ic_ab_back_material.xml"
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\white_clock.png",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\src\\main\\res\\drawable\\white_clock.png"
     },
     {
-        "merged": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dish.jpeg",
-        "source": "D:\\test\\TestApp\\localhost12312\\app\\src\\main\\res\\drawable\\dish.jpeg"
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\abc_item_background_holo_dark.xml"
     },
     {
-        "merged": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
-        "source": "D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\abc_seekbar_thumb_material.xml"
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/drawable/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/res/merged/debug/drawable/design_snackbar_background.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/exploded-aar/com.android.support/design/25.0.1/res/drawable/design_snackbar_background.xml"
+    },
+    {
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/res/merged/debug/drawable/ad7.png",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/app/src/main/res/drawable/ad7.png"
+    },
+    {
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/res/merged/debug/drawable/navigation_empty_icon.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/exploded-aar/com.android.support/design/25.0.1/res/drawable/navigation_empty_icon.xml"
+    },
+    {
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light_focused.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/drawable/common_google_signin_btn_icon_light_focused.xml"
+    },
+    {
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\calendar_with_a_clock_time_tools.png",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\src\\main\\res\\drawable\\calendar_with_a_clock_time_tools.png"
+    },
+    {
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/res/merged/debug/drawable/multiple_users_silhouette.png",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/app/src/main/res/drawable/multiple_users_silhouette.png"
+    },
+    {
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.0.1\\res\\drawable\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light_focused.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.0.1\\res\\drawable\\common_google_signin_btn_text_light_focused.xml"
+    },
+    {
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/res/merged/debug/drawable/white_rounded_btn.png",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/app/src/main/res/drawable/white_rounded_btn.png"
+    },
+    {
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/res/merged/debug/drawable/ad8.png",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/app/src/main/res/drawable/ad8.png"
+    },
+    {
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark_focused.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.0.1\\res\\drawable\\common_google_signin_btn_text_dark_focused.xml"
+    },
+    {
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/res/merged/debug/drawable/calendar_with_a_clock_time_tools.png",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/app/src/main/res/drawable/calendar_with_a_clock_time_tools.png"
+    },
+    {
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/res/merged/debug/drawable/notification_bg_low.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/res/merged/debug/drawable/abc_ic_go_search_api_material.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rounded_add_button.png",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\src\\main\\res\\drawable\\rounded_add_button.png"
+    },
+    {
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\white_star.png",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\src\\main\\res\\drawable\\white_star.png"
+    },
+    {
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/res/merged/debug/drawable/abc_ic_menu_overflow_material.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark_focused.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.0.1\\res\\drawable\\common_google_signin_btn_icon_dark_focused.xml"
+    },
+    {
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/res/merged/debug/drawable/design_ic_visibility.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/exploded-aar/com.android.support/design/25.0.1/res/drawable/design_ic_visibility.xml"
+    },
+    {
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/res/merged/debug/drawable/abc_text_cursor_material.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/drawable/common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/res/merged/debug/drawable/search.png",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/app/src/main/res/drawable/search.png"
+    },
+    {
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/res/merged/debug/drawable/design_bottom_navigation_item_background.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/exploded-aar/com.android.support/design/25.0.1/res/drawable/design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bars.png",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\src\\main\\res\\drawable\\bars.png"
+    },
+    {
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\gpsmoduleicon.png",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\src\\main\\res\\drawable\\gpsmoduleicon.png"
+    },
+    {
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/res/merged/debug/drawable/ad6.png",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/app/src/main/res/drawable/ad6.png"
+    },
+    {
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\search.png",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\src\\main\\res\\drawable\\search.png"
+    },
+    {
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/res/merged/debug/drawable/black_star.png",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/app/src/main/res/drawable/black_star.png"
+    },
+    {
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_tick_mark_material.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/res/merged/debug/drawable/design_fab_background.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/exploded-aar/com.android.support/design/25.0.1/res/drawable/design_fab_background.xml"
+    },
+    {
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\multiple_users_silhouette.png",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\src\\main\\res\\drawable\\multiple_users_silhouette.png"
+    },
+    {
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/res/merged/debug/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/res/merged/debug/drawable/ad5.png",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/app/src/main/res/drawable/ad5.png"
+    },
+    {
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_btn_check_material.xml"
+    },
+    {
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\white_rounded_btn.png",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\src\\main\\res\\drawable\\white_rounded_btn.png"
+    },
+    {
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/drawable/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/res/merged/debug/drawable/bars.png",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/app/src/main/res/drawable/bars.png"
+    },
+    {
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_material.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/res/merged/debug/drawable/gpsmoduleicon.png",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/app/src/main/res/drawable/gpsmoduleicon.png"
+    },
+    {
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dish.jpeg",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\src\\main\\res\\drawable\\dish.jpeg"
+    },
+    {
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/res/merged/debug/drawable/ad10.png",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/app/src/main/res/drawable/ad10.png"
+    },
+    {
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/res/merged/debug/drawable/notification_tile_bg.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/D:\\test\\TestApp\\localhost12312\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "/Users/lee/AndroidStudioProjects/localhost999/app/build/intermediates/res/merged/debug/drawable/ad13.png",
+        "source": "/Users/lee/AndroidStudioProjects/localhost999/app/src/main/res/drawable/ad13.png"
     }
 ]
