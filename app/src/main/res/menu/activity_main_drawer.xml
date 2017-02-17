@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/FirstFlagment"
+            android:title="First" />
+        <item
+            android:id="@+id/SecondFlagment"
+            android:title="Second" />
+        <item
+            android:id="@+id/ThirdFlagment"
+            android:title="Third" />
+    </group>
+
+    <item android:title="Etc">
+        <menu>
+            <item
+                android:id="@+id/Setting"
+                android:title="Setting" />
+        </menu>
+    </item>
+</menu>
