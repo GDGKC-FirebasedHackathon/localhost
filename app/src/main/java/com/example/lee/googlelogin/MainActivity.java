@@ -22,8 +22,11 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.GoogleAuthProvider;
-import com.google.firebase.database.DatabaseReference;
+        import com.google.firebase.database.DataSnapshot;
+        import com.google.firebase.database.DatabaseError;
+        import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+        import com.google.firebase.database.ValueEventListener;
 
 
 public class MainActivity extends AppCompatActivity  implements View.OnClickListener{
@@ -62,12 +65,32 @@ public class MainActivity extends AppCompatActivity  implements View.OnClickList
         fa.addAuthStateListener(new FirebaseAuth.AuthStateListener() {
             @Override
             public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
-                FirebaseUser fb = fa.getCurrentUser();
+                final FirebaseUser fb = fa.getCurrentUser();
                 if(fb==null){
                 }else{
-                    Intent intent = new Intent(MainActivity.this,TabMainActivity.class);
-                    startActivity(intent);
-                    finish();
+                   final DatabaseReference dataRef = df.child("uid/"+fb.getUid());
+                    dataRef.addListenerForSingleValueEvent(new ValueEventListener() {
+                        @Override
+                        public void onDataChange(DataSnapshot dataSnapshot) {
+                            if(dataSnapshot.getValue()!=null){
+                            }
+                            else{
+                                dataRef.child("/username").setValue(fb.getDisplayName());
+                                dataRef.child("/email").setValue(fb.getEmail());
+                                dataRef.child("/photoUrl").setValue("");
+                                dataRef.child("/sex").setValue("");
+                                dataRef.child("/age").setValue("");
+                                dataRef.child("/allStars").setValue("0");
+                            }
+                            Intent intent = new Intent(MainActivity.this,TabMainActivity.class);
+                            startActivity(intent);
+                            finish();
+                        }
+                        @Override
+                        public void onCancelled(DatabaseError databaseError) {
+
+                        }
+                    });
                 }
             }
         });
@@ -104,12 +127,12 @@ public class MainActivity extends AppCompatActivity  implements View.OnClickList
                 // Google Sign In was successful, authenticate with Firebase
                 GoogleSignInAccount account = result.getSignInAccount();
                 firebaseAuthWithGoogle(account);
-                Toast.makeText(MainActivity.this, "ddddd", Toast.LENGTH_SHORT).show();
+            //    Toast.makeText(MainActivity.this, "ddddd", Toast.LENGTH_SHORT).show();
             } else {
                 // Google Sign In failed, update UI appropriately
                 // ...
 
-                Toast.makeText(MainActivity.this, "NONONONONO", Toast.LENGTH_SHORT).show();
+                //Toast.makeText(MainActivity.this, "NONONONONO", Toast.LENGTH_SHORT).show();
             }
         }
     }
