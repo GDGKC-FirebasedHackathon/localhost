@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "541396800621",
+    "firebase_url": "https://fireauth-971eb.firebaseio.com",
+    "project_id": "fireauth-971eb",
+    "storage_bucket": "fireauth-971eb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:541396800621:android:64535cac2bb5770f",
+        "android_client_info": {
+          "package_name": "com.example.lee.googlelogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "541396800621-3prqo1vq6ssff1v0fgls65gg73i88vfr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCub5iTRKk_9XnnuJ3L300duNJb2LDYNAc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
